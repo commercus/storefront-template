@@ -16,8 +16,8 @@ Fork it, make it yours, and sell.
 1. Use this template ("Use this template" on GitHub, or a fork on your Forgejo).
 2. Copy `.env.example` to `.env` and fill in your shop's public key (`pk_…`, in the Commercus admin
    under Winkel).
-3. `npm install`, then `npm run dev`: your shop on <http://localhost:4321>. For the cart to work
-   there, add `localhost:4321` as a DEV domain of your shop in the admin (Winkel, Domeinen).
+3. `npm install`, then `npm run dev`: your shop on <http://localhost:4321>, cart and all; Commercus
+   answers that address for every shop. Keep the port at 4321.
 4. Change `src/shop.config.ts` and `src/styles/shop.css` to your own name and look.
 5. Set the repository's variables and secrets (the comments at the top of the deploy workflow list
    them), then push: the site is built and deployed to your bucket on every push, every hour, and
